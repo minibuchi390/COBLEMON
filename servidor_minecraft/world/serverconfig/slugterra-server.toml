@@ -1,0 +1,342 @@
+
+#General Slug Leveling Settings
+[SlugLevelingSettings]
+	#Maximum level a slug can reach
+	maxLevel = 20
+	#Base XP needed for level 2
+	baseXpNeeded = 20.0
+	#Exponent for XP curve (higher = steeper curve)
+	xpExponent = 1.2
+	#Speed multiplier for velocimorph form
+	velocimorphSpeedMultiplier = 1.025
+
+#Combat Experience Settings
+[CombatExpSettings]
+	#Enable XP gain from impacts
+	enableImpactExp = true
+	#Multiplier for impact XP gain
+	impactExpMultiplier = 1.0
+	#Enable XP gain from killing players
+	enableKillPlayerExp = true
+	#Enable XP gain from hitting players
+	enableHitPlayerExp = true
+	#Multiplier for size scaling in XP calculation
+	sizeScalingMultiplier = 1.0
+	#Multiplier for kill impacts
+	killImpactMultiplier = 2.0
+	#Enable passive impact XP for non-player kills
+	enablePassiveImpactExp = true
+	#Multiplier for passive kills
+	passiveKillMultiplier = 0.5
+	#Show feedback when gaining combat XP from impacts
+	ImpactCombatExpGainFeedback = true
+	#Multiplier for XP gained in air
+	airExpMultiplier = 1.5
+	#List of slugs excluded from impact XP gain (registry names)
+	excludedImpactExpSlugs = []
+
+#Slug Action EXP Multipliers
+[SlugActionExpMultipliers]
+	#EXP multiplier for Blastipede action
+	blastipedeActionExpMultiplier = 1.0
+	#EXP multiplier for Boon Doc action
+	boonDocActionExpMultiplier = 1.0
+	#EXP multiplier for White Boon Doc action
+	whiteBoonDocActionExpMultiplier = 1.0
+	#EXP multiplier for Dirt Urchin action
+	dirtUrchinActionExpMultiplier = 1.0
+	#EXP multiplier for Enigmo action
+	enigmoActionExpMultiplier = 1.0
+	#EXP multiplier for Fandango action
+	fandangoActionExpMultiplier = 1.0
+	#EXP multiplier for Flaringo action
+	flaringoActionExpMultiplier = 1.0
+	#EXP multiplier for Flatulorhinkus action
+	flatulorhinkusActionExpMultiplier = 1.0
+	#EXP multiplier for Forgesmelter action
+	forgesmelterActionExpMultiplier = 1.0
+	#EXP multiplier for Frightgeist action
+	frightgeistActionExpMultiplier = 1.0
+	#EXP multiplier for Frostcrawler action
+	frostcrawlerActionExpMultiplier = 1.0
+	#EXP multiplier for Gazzer action
+	gazzerActionExpMultiplier = 1.0
+	#EXP multiplier for Hexlet action
+	hexletActionExpMultiplier = 1.0
+	#EXP multiplier for Hop Rock action
+	hoprockActionExpMultiplier = 1.0
+	#EXP multiplier for Hypnogrif action
+	hypnogrifActionExpMultiplier = 1.0
+	#EXP multiplier for Infurnus action
+	infurnusActionExpMultiplier = 1.0
+	#EXP multiplier for Lavalynx action
+	lavalynxActionExpMultiplier = 1.0
+	#EXP multiplier for Negashade action
+	negashadeActionExpMultiplier = 1.0
+	#EXP multiplier for Neotox action
+	neotoxActionExpMultiplier = 1.0
+	#EXP multiplier for Phosphoro action
+	phosphoroActionExpMultiplier = 1.0
+	#EXP multiplier for Sand Angler action
+	sandAnglerActionExpMultiplier = 1.0
+	#EXP multiplier for Slicksilver action
+	slicksilverActionExpMultiplier = 1.0
+	#EXP multiplier for Speedstinger action
+	speedstingerActionExpMultiplier = 1.0
+	#EXP multiplier for Tazerling action
+	tazerlingActionExpMultiplier = 1.0
+	#EXP multiplier for Thugglet action
+	thuggletActionExpMultiplier = 1.0
+	#EXP multiplier for Tormato action
+	tormatoActionExpMultiplier = 1.0
+	#EXP multiplier for Vinedrill action
+	vinedrillActionExpMultiplier = 1.0
+	#EXP multiplier for Xmitter action
+	xmitterActionExpMultiplier = 1.0
+	#EXP multiplier for Infurnus Yellow action
+	infurnusYellowActionExpMultiplier = 1.0
+	#EXP multiplier for Aquabeek action
+	aquabeekActionExpMultiplier = 1.0
+	#EXP multiplier for Pieper action
+	pieperActionExpMultiplier = 1.0
+	#EXP multiplier for Rammstone action
+	rammstoneActionExpMultiplier = 1.0
+	#EXP multiplier for Slyren action
+	slyrenActionExpMultiplier = 1.0
+	#EXP multiplier for Bubbaleone action
+	bubbaleoneActionExpMultiplier = 1.0
+	#EXP multiplier for Grenuke action
+	grenukeActionExpMultiplier = 1.0
+	#EXP multiplier for Hoverbug action
+	hoverbugActionExpMultiplier = 1.0
+	#EXP multiplier for Lariat action
+	lariatActionExpMultiplier = 1.0
+	#EXP multiplier for Makobreaker action
+	makobreakerActionExpMultiplier = 1.0
+	#EXP multiplier for Polero action
+	poleroActionExpMultiplier = 1.0
+	#EXP multiplier for Thresher action
+	thresherActionExpMultiplier = 1.0
+
+#Velocimorph Damage Settings
+[VelocimorphDamageSettings]
+	#Base damage for Aquabeek velocimorph
+	aquabeekBaseDamage = 2.0
+	#Base damage for Arachnet velocimorph
+	arachnetBaseDamage = 1.5
+	#Base damage for Armashelt velocimorph
+	armasheltBaseDamage = 3.0
+	#Base damage for Blastipede velocimorph
+	blastipedeBaseDamage = 2.5
+	#Base damage for Boon Doc velocimorph
+	boonDocBaseDamage = 1.0
+	#Base damage for White Boon Doc velocimorph
+	boonDocWhiteBaseDamage = 1.0
+	#Base damage for Bubbaleone velocimorph
+	bubbaleoneBaseDamage = 2.0
+	#Base damage for Crystalyd velocimorph
+	crystalydBaseDamage = 2.0
+	#Base damage for Diggrix velocimorph
+	diggrixBaseDamage = 2.5
+	#Base damage for Dirt Urchin velocimorph
+	dirtUrchinBaseDamage = 2.0
+	#Base damage for Enigmo velocimorph
+	enigmoBaseDamage = 1.5
+	#Base damage for Fandango velocimorph
+	fandangoBaseDamage = 1.25
+	#Base damage for Flaringo velocimorph
+	flaringoBaseDamage = 2.0
+	#Base damage for Flatulorhinkus velocimorph
+	flatulorhinkusBaseDamage = 1.0
+	#Base damage for Flopper velocimorph
+	flopperBaseDamage = 1.5
+	#Base damage for Forgesmelter velocimorph
+	forgesmelterBaseDamage = 3.0
+	#Base damage for Frightgeist velocimorph
+	frightgeistBaseDamage = 2.0
+	#Base damage for Frostcrawler velocimorph
+	frostcrawlerBaseDamage = 2.0
+	#Base damage for Gazzer velocimorph
+	gazzerBaseDamage = 2.0
+	#Base damage for Geoshard velocimorph
+	geoshardBaseDamage = 2.5
+	#Base damage for Grenuke velocimorph
+	grenukeBaseDamage = 2.5
+	#Base damage for Hexlet velocimorph
+	hexletBaseDamage = 2.0
+	#Base damage for Hop Rock velocimorph
+	hoprockBaseDamage = 1.0
+	#Base damage for Hoverbug velocimorph
+	hoverbugBaseDamage = 1.0
+	#Base damage for Hypnogrif velocimorph
+	hypnogrifBaseDamage = 2.0
+	#Base damage for Infurnus velocimorph
+	infurnusBaseDamage = 3.0
+	#Base damage for Infurnus Yellow velocimorph
+	infurnusYellowBaseDamage = 3.0
+	#Base damage for Jellyish velocimorph
+	jellyishBaseDamage = 1.5
+	#Base damage for Lariat velocimorph
+	lariatBaseDamage = 1.5
+	#Base damage for Lavalynx velocimorph
+	lavalynxBaseDamage = 2.5
+	#Base damage for Makobreaker velocimorph
+	makobreakerBaseDamage = 3.0
+	#Base damage for Negashade velocimorph
+	negashadeBaseDamage = 2.25
+	#Base damage for Neotox velocimorph
+	neotoxBaseDamage = 1.5
+	#Base damage for Phosphoro velocimorph
+	phosphoroBaseDamage = 1.0
+	#Base damage for Pieper velocimorph
+	pieperBaseDamage = 2.5
+	#Base damage for Polero velocimorph
+	poleroBaseDamage = 1.25
+	#Base damage for Rammstone velocimorph
+	rammstoneBaseDamage = 5.0
+	#Base damage for Sand Angler velocimorph
+	sandAnglerBaseDamage = 2.25
+	#Base damage for Slicksilver velocimorph
+	slicksilverBaseDamage = 3.0
+	#Base damage for Slyren velocimorph
+	slyrenBaseDamage = 1.25
+	#Base damage for Speedstinger velocimorph
+	speedstingerBaseDamage = 4.0
+	#Base damage for Tazerling velocimorph
+	tazerlingBaseDamage = 2.5
+	#Base damage for Thresher velocimorph
+	thresherBaseDamage = 4.5
+	#Base damage for Thugglet velocimorph
+	thuggletBaseDamage = 2.25
+	#Base damage for Tormato velocimorph
+	tormatoBaseDamage = 1.25
+	#Base damage for Vinedrill velocimorph
+	vinedrillBaseDamage = 2.0
+	#Base damage for Xmitter velocimorph
+	xmitterBaseDamage = 2.0
+	#Damage multiplier applied every second combat level (e.g., levels 1, 3, 5, ...)
+	damageMultiplierPerSecondLevel = 1.2
+
+#Trust Experience Settings
+[TrustExpSettings]
+	#Interval in ticks for passive trust gain checks (e.g., 20 for every second)
+	passiveTrustGainInterval = 20
+	#Probability for passive trust gain per interval (as a decimal, e.g., 0.01 for 1%)
+	passiveTrustGainProbability = 0.01
+	#Minimum trust XP loss when a new craving is assigned (replaces old craving)
+	trustLossMin = 45
+	#Maximum trust XP loss when a new craving is assigned (replaces old craving)
+	trustLossMax = 100
+	#Minimum trust XP loss when the owner hurts the slug
+	trustLossOnOwnerHurtMin = 10
+	#Maximum trust XP loss when the owner hurts the slug
+	trustLossOnOwnerHurtMax = 20
+
+#XP Food Settings
+[XPFoodSettings]
+	#Probability for gaining XP from XP food (as a decimal, e.g., 0.15 for 15%)
+	xpFoodGainProbability = 0.15
+	#Minimum Combat XP gained from XP food when probability succeeds
+	xpFoodMinGain = 5
+	#Maximum Combat XP gained from XP food when probability succeeds
+	xpFoodMaxGain = 10
+	#Multiplier increment per combat level for combat XP gained from XP food (e.g., 0.05 for +5% per level above level 1)
+	xpFoodCombatLevelMultiplier = 0.1
+	#Minimum Combat XP for common XP food
+	combatCommonMinXp = 5
+	#Maximum Combat XP for common XP food
+	combatCommonMaxXp = 10
+	#Minimum Combat XP for uncommon XP food
+	combatUncommonMinXp = 15
+	#Maximum Combat XP for uncommon XP food
+	combatUncommonMaxXp = 25
+	#Minimum Combat XP for rare XP food
+	combatRareMinXp = 35
+	#Maximum Combat XP for rare XP food
+	combatRareMaxXp = 50
+	#Minimum Combat XP for epic XP food
+	combatEpicMinXp = 75
+	#Maximum Combat XP for epic XP food
+	combatEpicMaxXp = 100
+	#Minimum Combat XP for legendary XP food
+	combatLegendaryMinXp = 200
+	#Maximum Combat XP for legendary XP food
+	combatLegendaryMaxXp = 250
+	#Minimum Trust XP for common XP food
+	trustCommonMinXp = 5
+	#Maximum Trust XP for common XP food
+	trustCommonMaxXp = 10
+	#Minimum Trust XP for uncommon XP food
+	trustUncommonMinXp = 15
+	#Maximum Trust XP for uncommon XP food
+	trustUncommonMaxXp = 25
+	#Minimum Trust XP for rare XP food
+	trustRareMinXp = 35
+	#Maximum Trust XP for rare XP food
+	trustRareMaxXp = 50
+	#Minimum Trust XP for epic XP food
+	trustEpicMinXp = 75
+	#Maximum Trust XP for epic XP food
+	trustEpicMaxXp = 100
+	#Minimum Trust XP for legendary XP food
+	trustLegendaryMinXp = 200
+	#Maximum Trust XP for legendary XP food
+	trustLegendaryMaxXp = 250
+	#Minimum eating time in seconds when fed trust or exp food
+	minEatingTime = 30
+	#Maximum eating time in seconds when fed trust or exp food
+	maxEatingTime = 45
+	#Percent of max HP healed when any food is eaten (0.25 = 25%)
+	foodHealingPercent = 0.25
+
+#Slug Entity General Settings
+[SlugEntitySettings]
+	#Max health bonus for 'the Ascendant' title
+	ascendantMaxHealthBonus = 20.0
+	#Movement speed reduction for 'the Patient' or 'the Sleepy' titles
+	patientSleepyMovementSpeed = 0.19
+	#Chance for 'the Grateful' title to give a gift when fed XP food (as a decimal, e.g., 0.10 for 10%)
+	gratefulGiftGivingChance = 0.1
+	#Healing amount when feeding craved food
+	cravedFoodHealingAmount = 4.0
+	#Damage avoidance chance for 'the Lucky' title (as a decimal, e.g., 0.5 for 50%)
+	luckyDamageAvoidanceChance = 0.5
+	#Maximum vertical spawn distance from nearest player in blocks
+	maxVerticalSpawnDistance = 128.0
+	#Probability for assigning 'Male' gender on spawn (as a decimal, e.g., 0.5 for 50/50; female will be 1 - this value)
+	maleGenderProbability = 0.5
+
+#General Entity Despawn Settings (for non-tameable entities)
+[GeneralEntityDespawnSettings]
+	#Ticks before despawn if no player nearby (e.g., 600 for 30s)
+	generalNoPlayerDespawnTicks = 600
+	#Despawn chance per tick if > far radius (divide by 20 for per second)
+	generalFarDespawnChance = 0.01
+	#Despawn chance per tick if between near and far radius (divide by 20 for per second)
+	generalNearDespawnChance = 0.0033
+	#Far despawn radius in blocks
+	generalFarDespawnRadius = 64
+	#Near despawn radius in blocks
+	generalNearDespawnRadius = 32
+	#Radius to search for nearest player in blocks
+	generalPlayerSearchRadius = 128
+	#Vertical distance threshold for instant despawn (for non-water mobs)
+	generalVerticalDespawnRadius = 64
+
+#Slug Despawn Settings (for untamed tamable slugs)
+[SlugDespawnSettings]
+	#Ticks before despawn if no player nearby (e.g., 600 for 30s)
+	slugNoPlayerDespawnTicks = 600
+	#Despawn chance per tick if > far radius (divide by 20 for per second)
+	slugFarDespawnChance = 0.01
+	#Despawn chance per tick if between near and far radius (divide by 20 for per second)
+	slugNearDespawnChance = 0.0033
+	#Far despawn radius in blocks
+	slugFarDespawnRadius = 64
+	#Near despawn radius in blocks
+	slugNearDespawnRadius = 32
+	#Radius to search for nearest player in blocks
+	slugPlayerSearchRadius = 128
+	#Vertical distance threshold for instant despawn (for non-water mobs)
+	slugVerticalDespawnRadius = 64
+
